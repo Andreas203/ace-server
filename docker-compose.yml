@@ -1,0 +1,8 @@
+services:
+  server:
+    container_name: ace-server
+    image: ace-server
+    build:
+      dockerfile: ./src/main/Dockerfile
+    ports:
+      - "3000:3000"

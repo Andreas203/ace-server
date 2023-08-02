@@ -1,0 +1,9 @@
+{
+    "compilerOptions": {
+      "esModuleInterop": true,
+      "module": "CommonJS",
+      "noEmit": true,
+      "allowImportingTsExtensions": true,
+      "moduleResolution": "node",
+    }
+}
